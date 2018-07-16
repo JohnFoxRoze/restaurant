@@ -4,6 +4,6 @@
  * Database configuration settings used by PDO.
  */
 
-$config['dsn'] = '';
+$config['dsn'] = 'mysql:host=localhost;dbname=restaurant;charset=utf8';
+$config['user'] = 'root';
 $config['password'] = '';
-$config['user'] = '';

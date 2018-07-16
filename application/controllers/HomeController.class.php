@@ -8,6 +8,14 @@ class HomeController {
          * L'argument $http est un objet permettant de faire des redirections etc.
          * L'argument $queryFields contient l'équivalent de $_GET en PHP natif.
          */
+
+        $ma_variable = "slt";
+
+        return [
+            'poipoil' => $ma_variable,
+            'saucetomate' => ["je mange des pages", 'tomate', 'pomme']
+        ];
+
     }
 
     public function httpPostMethod(Http $http, array $formFields) {
